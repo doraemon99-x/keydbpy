@@ -1,11 +1,11 @@
 import requests
 import telebot
 import json
-TOKEN = '6949477339:AAFs8B4tZXUz1jBFYFOuL1wdfjAFDnoLdnY'
+TOKEN = '6252459516:AAEurBlbU6nP_Xu_XBGr-SnoFWrbt8gEUvU'
 bot = telebot.TeleBot(TOKEN)
 
 def post_request(license_url, pssh):
-    api_url = "https://keysdb.net/api"
+    api_url = "https://getwvkeys.com/api"
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (Ktesttemp, like Gecko) Chrome/90.0.4430.85 Safari/537.36",
         "Content-Type": "application/json",
